@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset */
+
+
+.wrap{
+    width: 300px;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+.title{
+    width: 300px;
+}
+
+h1{
+    color: #829886;
+    background-color: #e7eeea;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: bolder;
+}
+
+.content1{
+    width: 266px;
+    padding: 6px 16px;
+    border: 1px solid #e7eeea;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #829886;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.word1{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.word2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.num1{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.num2{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.commodity{
+    width: 298px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #e7eeea;
+}
+
+img{
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    color: #829886;
+    font-weight: bold;
+}
+
+.item span{
+    display: block;
+    padding: 4px;
+}
